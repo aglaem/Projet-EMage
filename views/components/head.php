@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles/components.css">
+    <link rel="stylesheet" href="../assets/styles/home.css">
+    <link rel="shortcut icon" href="../assets/img/logo.png" type="image/png">
+    <title>EMage</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/img/logo.png" alt="Logo EMage">
+            <h1>
+                <p class="yellow">E</p>
+                <p class="red">M</p>
+                <p class="green_forest">age</p>
+            </h1>
+        </div>
+        <div class="nav">
+            <button id="burger"><img src="../assets/img/burger.png" alt="burger" class="burger"></button>
+            <div id="navbar">
+                <div><a href="../index.php">Accueil</a></div>
+                <div><a href="../controllers/who_controller.php">Qui suis-je ?</a></div>
+                <div><a href="../controllers/services_controller.php">Services</a></div>
+                <div><a href="../controllers/contact_controller.php">Contact</a></div>
+                <button>Evaluer ma situation</button>
+            </div>
+        </div>
+    </header>

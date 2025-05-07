@@ -1,0 +1,130 @@
+h2 {
+    text-align: center;
+    font-size: 4em;
+    color: #20681B;
+}
+
+.carrousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30em;
+    background-color: #20681B;
+}
+
+.carrousel_item{
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    background-color: transparent;
+    width: 100%;
+}
+
+.second_item {
+    display: none;
+}
+
+.carrousel_img {
+    display: flex;
+    width: 35em;
+    height: 25em;
+    margin: 1em;
+}
+
+.carrousel_item_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+}
+
+h3 {
+    font-size: 2.5em;
+    color: #E80809;
+}
+
+.carrousel_item_text strong {
+    font-size: 1.5em;
+    color: #FFFFFF;
+    width: 70%;
+}
+
+.carrousel_buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.carrousel_button{
+    display: flex;
+    margin: 1em 0.5em;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.carrousel_button:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: #000;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3em 0;
+}
+
+.problem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.problem p , .problem strong {
+    font-size: 2.5em;
+}
+
+.answer {
+    display: flex;
+    margin-top: 1em;
+}
+
+.answer p {
+    display: flex;
+    flex-direction: column;
+    margin: auto 1em;
+    font-size: 2em;
+    color: #20681B;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    color: #20681B;
+}
+
+.solution {
+    background-color: #20681B;
+    color: #FFFFFF;
+    font-size: 2em;
+    padding: 1em;
+}
