@@ -1,63 +1,98 @@
-h2 {
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Felipa&display=swap');
+
+.title_home {
     text-align: center;
-    font-size: 4em;
+    font-size: 3.5em;
     color: #20681B;
+    font-family: 'Dancing Script', cursive;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide_left {
+    padding-left: 1em;
+}
+
+.intro_title {
+    font-size: 2.5em;
+    color: #E80809;
+    margin: 1em 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+.intro_text {
+    font-size: 1.5em;
+}
+
+.slide img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.slide_right {
+    width: 100%;
+    text-align: right;
+}
+
+.slide_up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.carrousel_title {
+    font-size: 2.5em;
+    margin: 1em 0;
+    text-align: center;
+    color: #E1AD01;
+    font-family: 'Dancing Script', cursive;
 }
 
 .carrousel {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 30em;
-    background-color: #20681B;
+    height: 500px;
+    overflow: hidden;
 }
 
-.carrousel_item{
+.slider{
+    width: 500em;
+    height: 500px;
     display: flex;
-    justify-content: space-evenly;
-    color: #FFFFFF;
-    background-color: transparent;
-    width: 100%;
 }
 
-.second_item {
-    display: none;
-}
-
-.carrousel_img {
+.carrousel_item {
     display: flex;
-    width: 35em;
-    height: 25em;
-    margin: 1em;
-}
-
-.carrousel_item_text {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 1em;
+    text-align: center;
 }
 
-h3 {
-    font-size: 2.5em;
-    color: #E80809;
+.carrousel_item img{
+    width: 100vh;
+    height: 100%;
+    object-fit: cover;
 }
 
-.carrousel_item_text strong {
-    font-size: 1.5em;
-    color: #FFFFFF;
-    width: 70%;
-}
-
-.carrousel_buttons{
+.carrousel_buttons {
     display: flex;
     justify-content: center;
 }
 
-.carrousel_button{
+.carrousel_button {
     display: flex;
     margin: 1em 0.5em;
     align-items: center;
@@ -72,59 +107,35 @@ h3 {
     cursor: pointer;
 }
 
-.active {
-    background-color: #000;
-}
-
 section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 3em 0;
+    align-items: center;
+    background-image: url('../images/section_background.jpg');
 }
 
-.problem {
+.section_title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #E1AD01;
+    font-family: 'Dancing Script', cursive;
+    margin: 1em 0;
+}
+
+.section_content {
+    display: flex;
+}
+
+.section_content img {
+    width: 30%;
+    height: 10%;
+}
+
+.section_text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    font-size: 1.5em;
     text-align: center;
     margin: auto;
-}
-
-.problem p , .problem strong {
-    font-size: 2.5em;
-}
-
-.answer {
-    display: flex;
-    margin-top: 1em;
-}
-
-.answer p {
-    display: flex;
-    flex-direction: column;
-    margin: auto 1em;
-    font-size: 2em;
-    color: #20681B;
-}
-
-.text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-ul {
-    display: flex;
-    flex-direction: column;
-    font-size: 2em;
-    color: #20681B;
-}
-
-.solution {
-    background-color: #20681B;
-    color: #FFFFFF;
-    font-size: 2em;
-    padding: 1em;
 }

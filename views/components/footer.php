@@ -10,9 +10,12 @@
                 <a href=""><img src="../assets/img/reseaux/instagram.jpg" alt="instagram"></a>
                 <a href=""><img src="../assets/img/reseaux/linkedin.jpg" alt="linkedin"></a>
             </div>
-            
+
         </footer>
-        <script src="../assets/scripts/script.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 
 </html>
