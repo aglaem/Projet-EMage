@@ -12,15 +12,15 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
+    <header id="header">
+        <a href="../index.php" class="logo">
             <img src="../assets/img/logo.png" alt="Logo EMage">
             <h1 class="site_name">
                 <p class="yellow">E</p>
                 <p class="red">M</p>
                 <p class="green_forest">age</p>
             </h1>
-        </div>
+        </a>
         <div class="nav">
             <button id="burger"><img src="../assets/img/burger.png" alt="burger" class="burger"></button>
             <div id="navbar">

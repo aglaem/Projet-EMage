@@ -16,6 +16,7 @@
         <script>
             AOS.init();
         </script>
+        <script src="../assets/scripts/script.js"></script>
     </body>
 
 </html>

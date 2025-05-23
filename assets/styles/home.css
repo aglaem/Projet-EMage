@@ -25,9 +25,13 @@
 
 .intro_title {
     font-size: 2.5em;
-    color: #E80809;
     margin: 1em 0;
     font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 900;
 }
 
 .intro_text {
@@ -118,16 +122,19 @@ section {
 .section_title {
     text-align: center;
     font-size: 2.5em;
-    color: #E1AD01;
     font-family: 'Dancing Script', cursive;
     margin: 1em 0;
 }
 
 .section_content {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: start;
+    width: 100%;
 }
 
-.section_content img {
+.section_img {
     width: 30%;
     height: 10%;
 }
@@ -135,7 +142,32 @@ section {
 .section_text {
     display: flex;
     flex-direction: column;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: center;
     margin: auto;
+    color: #000;
+}
+
+.cards_pack{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    padding: 0.5em;
+    box-shadow: 3px 3px 5px #20681B;
+    border-radius: 10px;
+}
+
+.pack_img {
+    width: 300px;
+    height: 350px;
+    margin: auto;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: black;
+    font-weight: 400;
+    margin: 0.5em 0;
 }
