@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/styles/components.css">
     <link rel="stylesheet" href="../assets/styles/home.css">
+    <link rel="stylesheet" href="../assets/styles/services.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="../assets/img/logo.png" type="image/png">
     <title>EMage</title>
@@ -15,13 +16,8 @@
     <header id="header">
         <a href="../index.php" class="logo">
             <img src="../assets/img/logo.png" alt="Logo EMage">
-            <h1 class="site_name">
-                <p class="yellow">E</p>
-                <p class="red">M</p>
-                <p class="green_forest">age</p>
-            </h1>
         </a>
-        <div class="nav">
+        <div id="nav">
             <button id="burger"><img src="../assets/img/burger.png" alt="burger" class="burger"></button>
             <div id="navbar">
                 <div><a href="../index.php">Accueil</a></div>

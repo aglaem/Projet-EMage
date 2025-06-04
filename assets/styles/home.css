@@ -64,31 +64,29 @@
     font-family: 'Dancing Script', cursive;
 }
 
-.carrousel {
+.slider {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1520px;
     height: 500px;
     overflow: hidden;
 }
 
-.slider{
-    width: 500em;
+.slides{
+    width: 300%;
     height: 500px;
     display: flex;
 }
 
-.carrousel_item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.slide_item {
+    width: 100%;
+    transition: 2s;
 }
 
-.carrousel_item img{
-    width: 100vh;
-    height: 100%;
-    object-fit: cover;
+.slide_img{
+    width: 1520px;
+    height: 500px;
 }
 
 .carrousel_buttons {
@@ -116,14 +114,15 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../images/section_background.jpg');
+    margin: 1em 0;
 }
 
 .section_title {
+    width: 100%;
     text-align: center;
     font-size: 2.5em;
     font-family: 'Dancing Script', cursive;
-    margin: 1em 0;
+    margin-bottom: 0.5em;
 }
 
 .section_content {
@@ -148,6 +147,11 @@ section {
     color: #000;
 }
 
+.text_title {
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+
 .cards_pack{
     display: flex;
     flex-direction: column;
@@ -170,4 +174,43 @@ h3 {
     color: black;
     font-weight: 400;
     margin: 0.5em 0;
+}
+
+.img_full_screen {
+    background-image: url('../img/accueil/mirror_nature.png');
+    background-size: cover;
+    background-position: center;
+    padding: 3em;
+}
+
+.front_text {
+    background-color: rgba(255, 255, 255, 0.462);
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.cloud {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+    border: 1px solid #20681B;
+    box-shadow: 0px 0px 30px 30px #1E5F19;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    background: #20681B;
+}
+
+.cloud button {
+    background: transparent;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    padding: 0.5em;
+    font-size: 3em;
+    border: none;
+    cursor: pointer;
+}
+
+.cloud button:hover {
+    color: #49DA3F;
 }
