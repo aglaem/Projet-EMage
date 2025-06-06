@@ -18,9 +18,9 @@
             <h2 class="section_title green_forest">1. Dégager le brouillard</h2>
             <p>Je suis perdue. J’ai tout dans la tête, mais rien ne prend forme.</p>
             <ul>
-                <li><b class="red">Ce que vous ressentez</b> : surcharge mentale, priorités floues, difficulté à prendre du recul</li>
-                <li><b class="yellow">Ce que je fais avec vous</b> : audit express, débrief stratégique, mise à plat de votre réalité</li>
-                <li><b class="green_forest">Ce que vous gagnez</b> : une photographie claire de votre situation, un soulagement immédiat, des premiers choix posés</li>
+                <li><b class="webkit red">Ce que vous ressentez</b> : surcharge mentale, priorités floues, difficulté à prendre du recul</li>
+                <li><b class="webkit yellow">Ce que je fais avec vous</b> : audit express, débrief stratégique, mise à plat de votre réalité</li>
+                <li><b class=" webkit green_forest">Ce que vous gagnez</b> : une photographie claire de votre situation, un soulagement immédiat, des premiers choix posés</li>
             </ul>
         </div>
         <div class="content_hide">
@@ -30,10 +30,24 @@
         <div class="content_hide">
         </div>
         <div class="content box_right" data-aos="fade-left" data-aos-duration="2000">
+            <h2 class="section_title green_forest">2. Structurer pour respirer</h2>
+            <p>Je fais plein de choses, mais j’ai l’impression de courir dans tous les sens.</p>
+            <ul>
+                <li><b class="webkit red">Ce que vous ressentez</b> : perte de sens, trop-plein d’outils ou de projets, charge mentale élevée</li>
+                <li><b class="webkit yellow">Ce que je fais avec vous</b> : planification, priorisation, organisation concrète de vos activités et canaux</li>
+                <li><b class=" webkit green_forest">Ce que vous gagnez</b> : un plan d’action apaisant, une clarté nouvelle sur vos vraies zones d’impact, de l’énergie rendue</li>
+            </ul>
         </div>
     </div>
     <div class="section_left">
         <div class="content box_left" data-aos="fade-right" data-aos-duration="2000">
+            <h2 class="section_title green_forest">3. Avancer avec fluidité</h2>
+            <p>Je veux que ça tourne sans moi 24h/24. Je veux du souffle.</p>
+            <ul>
+                <li><b class="webkit red">Ce que vous ressentez</b> : difficulté à suivre, manque de système, besoin de délégation ou d’automatisation</li>
+                <li><b class="webkit yellow">Ce que je fais avec vous</b> : accompagnement opérationnel, systémisation, suivi de vos projets et préparations</li>
+                <li><b class=" webkit green_forest">Ce que vous gagnez</b> : une activité qui tient la route, moins de charge à l’esprit, une dynamique durable et alignée</li>
+            </ul>
         </div>
         <div class="content_hide">
         </div>
@@ -42,39 +56,49 @@
         <div class="content_hide">
         </div>
         <div class="content box_right" data-aos="fade-left" data-aos-duration="2000">
+            <h2 class="section_title green_forest">4. Consolider & alléger</h2>
+            <p>Je veux un fonctionnement qui tienne dans le temps, même dans les creux.</p>
+            <ul>
+                <li><b class="webkit red">Ce que vous ressentez</b> : fatigue de pilotage, perte de motivation régulière, besoin de soutenabilité</li>
+                <li><b class="webkit yellow">Ce que je fais avec vous</b> : bilan, réglages fins, passage à l’amélioration continue, suivi mensuel si besoin</li>
+                <li><b class=" webkit green_forest">Ce que vous gagnez</b> : un projet qui vous respecte, une gestion apaisée, une posture de cheffe d’orchestre en paix avec elle-même</li>
+            </ul>
         </div>
     </div>
 </div>
-<section>
+<section class="cards_section">
     <h2 class="section_title red" data-aos="fade_in" data-aos-duration="2000">Le premier pas s'ajuste à vous</h2>
     <div class="section_content">
         <a href="#" class="cards_pack" data-aos="zoom-in" data-aos-duration="2000">
-            <img src="../assets/img/accueil/hands-on-tree.png" alt="hands-on-tree" class="pack_img">
-            <h3 class="yellow">Audit Social Media</h3>
+            <img src="../assets/img/services/tree_child.png" alt="tree_child" class="services_pack_img">
+            <h3 class="yellow">Soutien stratégique & co-construction</h3>
             <div class="section_text">
-                <b class="green_forest">Dès 450€</b>
-                <p>Pour comprendre ce qui freine votre visibilité sur vos réseaux sociaux.</p>
-                <p>Optimiser vos contenus, vos profils, votre stratégie.</p>
+                <p>Pour clarifier, cadrer, faire des choix. Vous gardez la main, je vous guide.</p>
             </div>
         </a>
         <a href="#" class="cards_pack" data-aos="zoom-in" data-aos-duration="2000">
-            <img src="../assets/img/accueil/sphere.png" alt="hands-on-tree" class="pack_img">
-            <h3 class="yellow">Audit SEO / SEA / SEM</h3>
+            <img src="../assets/img/services/zen_women.png" alt="zen_women" class="services_pack_img">
+            <h3 class="yellow">Optimisation de l’existant</h3>
             <div class="section_text">
-                <b class="green_forest">Dès 650€</b>
-                <p>Pour mettre à jour votre présence sur Google.</p>
-                <p>Un regard stratégique et technique pour poser les bonnes bases.</p>
+                <p>Pour valoriser ce qui a déjà été fait. On fait mieux, sans tout refaire.</p>
             </div>
         </a>
         <a href="#" class="cards_pack" data-aos="zoom-in" data-aos-duration="2000">
-            <img src="../assets/img/accueil/low-angle-forest.png" alt="hands-on-tree" class="pack_img">
-            <h3 class="yellow">Cartographie & Plan d’actions</h3>
+            <img src="../assets/img/services/breath_women.png" alt="breath_women" class="services_pack_img">
+            <h3 class="yellow">Bras droit digital</h3>
             <div class="section_text">
-                <b class="green_forest">Dès 950€</b>
-                <p>Pour structurer vos idées, vos actions, vos priorités.</p>
-                <p>Un livrable clair pour savoir où aller et comment y aller.</p>
+                <p>Pour vous décharger. J’organise, j’accompagne, je coordonne. Vous soufflez.</p>
             </div>
         </a>
+    </div>
+</section>
+
+<h2 class="first_step" data-aos="fade_in" data-aos-duration="3000">Le chemin vers votre version sereine de l’entrepreneuriat commence ici</h2>
+<strong class="last_sentence green_forest">Un pas à la fois. Mais un vrai pas.</strong>
+
+<section>
+    <div class="cloud" data-aos="flip-left" data-aos-duration="2000">
+        <button>Évaluer ma situation</button>
     </div>
 </section>
 

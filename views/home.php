@@ -136,7 +136,7 @@
 </section>
 
 <section>
-    <div class="cloud" data-aos="flip-left">
+    <div class="cloud" data-aos="flip-left" data-aos-duration="2000">
         <button>Évaluer ma situation</button>
     </div>
 </section>

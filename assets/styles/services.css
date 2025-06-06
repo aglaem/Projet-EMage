@@ -31,7 +31,7 @@
     position: absolute;
     left: 715px;
     width: 100px;
-    height: 1100px;
+    height: 1250px;
     background-color: #20681B; 
     clip-path: polygon(
     50% 100%,  /* pointe */
@@ -101,4 +101,34 @@
 
 .box_right{
     box-shadow: 10px 10px 0 #20681b5f;
+}
+
+.webkit {
+    font-size: 1.3em;
+    -webkit-text-stroke: 1px black;
+}
+
+.cards_section {
+    margin-top: 3em;
+}
+
+.services_pack_img {
+    width: 20em;
+    height: 10em;
+    margin: auto;
+}
+
+.first_step {
+    color: #E80809;
+    font-family: 'dancing script', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.last_sentence {
+    display: flex;
+    justify-content: center;
+    margin: 1em auto;
+    font-size: 1.5em;
 }
