@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../assets/styles/components.css">
     <link rel="stylesheet" href="../assets/styles/home.css">
     <link rel="stylesheet" href="../assets/styles/services.css">
+    <link rel="stylesheet" href="../assets/styles/who.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="../assets/img/logo.png" type="image/png">
     <title>EMage</title>

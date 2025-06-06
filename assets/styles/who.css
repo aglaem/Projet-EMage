@@ -1,0 +1,32 @@
+.title_who {
+    font-size: 3em;
+    font-weight: bold;
+    color: #E80809;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'dancing script', cursive;
+}
+
+.intro_who {
+    font-size: 1.2em;
+    width: 70%;
+    text-align: left;
+}
+
+.list_who {
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+    width: 67%;
+}
+
+.list_who li {
+    margin: auto;
+    padding: 10px;
+    width: fit-content;
+}
+
+.second_intro {
+    margin-top: 20px;
+    text-align: left;
+}
